@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(IMG/Win\ Wallpaper\ 8.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  
+}
+
+.textop1{
+    text-align: center;
+}
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 50px 50px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+.form-box h2{
+    font-size: 30px;
+}
+.form-box h4{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+.form-box form{
+    margin: 50px 50px;
+}
+
+form .input-group{
+    margin-bottom: 5px;
+}
+
+form .input-group label{
+    color: #3D3D3D;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* corrigir*/
+form .input-group input{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+form .input-group input:focus{
+    border-color: #0be3ff;
+}
+form .input-group button .form-buttons{
+    width: 30%;
+    height: 47px;
+    background: #0bf802;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+

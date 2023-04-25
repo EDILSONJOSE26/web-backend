@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="comportamentov1.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>atv02</title>
+</head>
+
+<body>
+    <div class="container"> <!--inicio container-->
+        <div class="form-box">
+            <h2 class="textop1">ADICIONAR TAREFAS</h2>
+            <form id="form_atributos" action="#">
+                <div class="input-group">
+                    <label for="descrição"> DESCRIÇÃO </label>
+                    <input type="text" id="Descricao1" placeholder="Digite a descrição" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="responsave">RESPONSAVEL</label>
+                    <input type="text" id="responsavel2" placeholder="Digite o nome do responsavel" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="nivel">NIVEL</label>
+                    <input type="number" id="niv" placeholder="Digite o nivel" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="prioridade">PRIORIDADE</label>
+                    <input type="number" id="num" placeholder="Digite a prioridade" required>
+                </div>
+
+                <div class="input-group w50">
+                    <label for="situacao">SITUAÇÃO</label>
+                    <input type="text" id="Confirmarsituaçao" placeholder="Situação" required>
+                </div>
+
+                <div id="form-buttons">
+                    <input id="btn-adicionar" type="submit" value="Adicionar Tarefa" />
+
+                </div>
+
+                <div class="editar_tarefas">
+                    <h2>ALTERAR SITUAÇÃO DAS TAREFAS</h2>
+                    <form class="form-situation" action="#">
+                        <input type="radio" id="emandamentoxx" name="situation" value="Em andamento">
+                        <label for="progress">Em Andamento</label><br>
+                        <input type="radio" id="pendentexx name="situation" value="Pendente">
+                        <label for="suspend">Pendente</label><br>  
+                        <input type="radio" id="canceladaxx" name="situation" value="Cancelada">
+                        <label for="age3">Cancelada</label><br><br>
+                        <div class="edit-buton">
+                            <input type="submit" value="Editiar situação">
+                        </div>
+                    </form>
+    
+                </div>
+
+               <h4>HISTORICO DE ATIVIDADES RECENTES</h4>
+                <br>
+                <ul id="list-atributos"></ul>
+
+
+            </form>
+        </div>
+    </div> <!--fim container-->
+</body>
+</html>
